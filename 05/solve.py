@@ -1,4 +1,4 @@
-mappys = open("05/test.txt").read().split("\n\n")
+mappys = open("05/input.txt").read().split("\n\n")
 
 seeds = mappys.pop(0).split(" ")[1:]
 seeds = [int(i) for i in seeds]
